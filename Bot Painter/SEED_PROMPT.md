@@ -9,14 +9,22 @@ If no X profile link is given, or the link is not a real profile URL, ask for on
 - Do not use image-generation or style-transfer models.
 - Use only Python and a browser.
 - Get the profile picture from the profile link, through your VM browser.
+- Show the live VM desktop to the user before any other work.
 - Paint live on your VM desktop, record the process, and deliver the final video.
 
 ## Steps
 
 ### 1. Start the desktop and show it first
 
-- Start the VM desktop and share it in chat before any other work, so the user can watch everything live, from the photo download to the last stroke.
-- Keep the screen clean the whole time: no mouse cursor, no popups.
+Do this before anything else, including opening the profile or writing code. Do not skip it or do it later.
+
+1. If you do not have a VM yet, provision one. Only v2 VMs have a desktop. If your VM is not v2, tell the user and stop.
+2. Start the desktop service on the VM, and confirm it is running.
+3. Create a live desktop app artifact. Starting the service alone does not make the desktop visible to the user. The artifact does.
+4. Show the desktop artifact to the user in a chat message, and tell them they can watch the whole process live there. Then continue without waiting for a reply.
+5. Only then go to step 2. Do all later work (photo download, painting, recording) on this desktop, so the user sees everything from the photo download to the last stroke.
+
+Keep the screen clean the whole time: no mouse cursor, no popups.
 
 ### 2. Get the photo
 
