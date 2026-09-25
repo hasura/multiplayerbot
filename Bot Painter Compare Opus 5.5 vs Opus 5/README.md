@@ -6,6 +6,6 @@ Runs Bot Painter on two bots, one on Opus 5 and one on Opus 5.5, for a given X p
 
 ## Example outcome
 
-A sample run, sped up 6x: the merged video with both painter bots stacked. Click it for the full recording.
+A sample run, sped up 6x: the merged video with both painter bots stacked.
 
-[![Bot Painter Compare sample run](assets/demo.gif)](assets/demo.mp4)
+![Bot Painter Compare sample run](assets/demo.gif)
