@@ -20,7 +20,7 @@ Paint a portrait of the person in this X profile, live on your VM desktop:
 <X profile link>
 
 Read the full instructions in this file and follow them exactly:
-https://raw.githubusercontent.com/hasura/multiplayerbot/main/Bot%20Painter/SEED_PROMPT.md
+https://raw.githubusercontent.com/hasura/multiplayerbot/main/Bot%20Painter/BOT.md
 If you cannot open the file, tell me instead of guessing.
 ```
 
