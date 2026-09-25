@@ -6,8 +6,6 @@ A test of aesthetics and visual perception. The bot paints a portrait of the per
 
 ## Example outcome
 
-A sample run: the bot paints a portrait from an X profile picture, from coarse strokes to fine detail. Click the image to watch the recording.
+A sample run, sped up 6x: the bot paints a portrait from an X profile picture, from coarse strokes to fine detail. Click it for the full recording.
 
-[![Bot Painter sample run](assets/demo.png)](assets/demo.mp4)
-
-[Watch the painting video (MP4, 1.5 min)](assets/demo.mp4)
+[![Bot Painter sample run](assets/demo.gif)](assets/demo.mp4)
